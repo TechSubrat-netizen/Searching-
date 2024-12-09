@@ -13,7 +13,7 @@ function removeDuplicate(arr){
    for(let [key,val] of map){
     if(val==1){
         result.push(key)
-    }
+    }   
    }
    return result
 }
